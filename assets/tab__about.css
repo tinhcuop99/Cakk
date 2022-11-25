@@ -1,0 +1,263 @@
+#tab__about {
+    position: relative;
+    background-image: url("/img/pexels-maurice-lustig-2896135.jpg");
+    width: 100%;
+    height: 45vh;
+    background-position: 60% 76%;
+    background-size: cover;
+    display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+.overlay {
+    text-align: center;
+}
+
+.tab__about-text {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   right: 42%;
+   top: 50%;
+   
+}
+/* BREADCRUMB  */
+
+.breadcrumb__container {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    padding: 26px 0 ;
+}
+.bread-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.bread-text1 {
+    font-size: 16px;
+    color: var(--font-color);
+    font-weight: 500;
+
+}
+
+.bread-text2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bread-icon {
+    margin: 0 6px;
+}
+
+#about-company {
+    margin: 80px 0;
+}
+
+.company-container {
+    padding: 0 174px;
+}
+
+/* whoare */
+
+#whoare {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+
+.whoare__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 174px;
+
+}
+
+.tiltle__main {
+    color: var(--font-color);
+    font-weight: 400;
+}
+
+.text__main {
+    font-size: 38px;
+    margin-top :4px; 
+    margin-bottom: 12px;
+
+}
+
+#about-company p {
+    font-size: 18px;
+    color: var(--font-color);
+    margin-bottom: 42px;
+    line-height: 28px;
+}
+
+.company-img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+/* wedo */
+
+.wedo__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 174px;
+}
+
+.wedo__box {
+    width: 500px;
+}
+
+.wedo__items {
+    width: 100%;
+    display: flex;
+    margin: 32px 0;
+}
+
+.tab__about__banner {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    background-image: url("/img/banner.jpg");
+    width: 100%;
+    height: 55vh;
+    background-position: 60% 15%;
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.wedo-width {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.tab__about__banner h2 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 46px;
+    
+}
+
+.tab__about__banner p{
+    color: #eee;
+    margin: 16px 0;
+}
+
+.tab__about__banner span {
+    display: inline-block;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    color: var(--primary-color);
+    line-height: 70px;
+    text-align: center;
+    
+    /* padding: 10px 10px; */
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.tab__about__banner span:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+
+/* OURTEAM  */
+
+.ourteam__container {
+    padding: 90px 0;
+}
+
+.ourteams__person {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.person__text {
+    width: 290px;
+}
+.person__text h4 {
+    font-weight: 500;
+    color: var(--font-color);
+}
+
+.person__text p {
+    color: var(--font-color);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+
+.person__box {
+    width: 270px;
+    /* padding: 0 14px; */
+    border: 1px solid #eee;
+    margin: 0 8px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition:0.3s ease-in;
+}
+
+.pic-scale {
+    overflow: hidden;
+}
+.person__box:hover .box__items h3 {
+    color: var(--primary-color);
+}
+
+.person__box:hover .person-pic {
+    transform: scale(1.15);
+    transition: 0.3s ease-in-out;
+
+}
+
+.box__items {
+    padding: 20px;
+}
+
+.teams__icon {
+    margin-top: 16px;
+}
+.person-pic {
+    width: 100%
+}
+
+.person__box h3 {
+    font-size: 22px;
+    color: #000;
+    line-height: 26px;
+}
+
+.person__box p {
+    color: var(--font-color);
+}
+
+.ourteams-icon {
+    font-size: 14px;
+    color: #c6c6c6;
+    padding: 8px 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.ourteams-icon:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}

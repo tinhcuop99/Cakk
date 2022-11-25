@@ -1,0 +1,74 @@
+.pagework__item {
+    width: 100%;
+}
+
+.pagework__hero {
+    padding-top: 6px;
+}
+.pagework__main{
+    background-color: #fff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.pagework__box {
+    position: relative;
+    width: 374px;
+    height: 250px;
+    padding: 0;
+    margin-top: 16px;
+}
+
+.pagework__item {
+    
+    border-radius: 6px;
+
+}
+
+.pagework-hover {
+    display: none;
+    position: absolute;
+    color: #fff;
+    
+}
+.pagework__none {
+    position: relative;
+}
+
+.pagework__overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    /* transition: all 0.4s ease-in-out 0s; */
+    border-radius: 4px;
+}
+
+
+.pagework-hover i {
+    font-size: 32px;
+}
+
+.pagework-hover h4 {
+    font-size: 32px;
+}
+
+
+.pagework__box:hover .pagework-hover{
+    cursor: pointer;
+    display: block;
+}
+
+.services-box:hover .pagework__overlay{
+    display: block;
+}
+
+.fadeIn {
+    
+}
+

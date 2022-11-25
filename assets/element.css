@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #d92626;
+  --background-hover: #b82020;
+  --nav-color: #999;
+  --font-color: #696969;
+  --border-radius: 6px;
+  --border-color: #ddd;
+  --heading-color: #2c3038;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  padding: 12px 36px;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  margin: 48px 0;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--background-hover);
+  transition: 0.3s ease-in;
+}
+
+.p-16 {
+  padding: 0 16px;
+}
+
+.m-24 {
+  margin: 0 24px;
+}
